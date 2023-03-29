@@ -1,0 +1,54 @@
+*:hover,
+*:focus,
+*:active {
+	outline: none;
+	box-shadow: none !important;
+}
+
+.breadcrumb-item>a {
+	color: var(--bs-green);
+}
+
+.form-control:focus {
+	border-color: var(--bs-green);
+}
+
+.form-check-input:checked {
+	border-color: var(--bs-green);
+	background-color: var(--bs-green);
+}
+
+.dropdown-item:focus,
+.dropdown-item:active,
+.dropdown-item.active {
+	color: var(--bs-white);
+	background-color: var(--bs-green);
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+
+.pagination>li>a {
+	background-color: var(--bs-white);
+	color: var(--bs-green);
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+	color: var(--bs-green);
+}
+
+.pagination>.active>a {
+	color: var(--bs-white);
+	background-color: var(--bs-green) !important;
+	border: solid 1px var(--bs-green) !important;
+}
+
+.pagination>.active>a:hover {
+	background-color: var(--bs-green) !important;
+	border: solid 1px var(--bs-green);
+}
